@@ -19,3 +19,8 @@ Python Script to extract EC2's stopped in all accounts of the Organization
   - VolumeId: Identificador del volumen
   - SnapshotId: Identificador del Snapshot en caso de existir
   - Name: Tage Key Name y Value
+
+## Referencias
+ - https://boto3.amazonaws.com/v1/documentation/api/1.9.42/reference/services/ec2.html#EC2.Client.describe_snapshots
+ - https://boto3.amazonaws.com/v1/documentation/api/1.9.42/guide/migrationec2.html#checking-what-instances-are-running
+ - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_accounts_access.html
